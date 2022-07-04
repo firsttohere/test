@@ -12,6 +12,7 @@ public class BookController {
 	public String add() {
 		System.out.println("正在执行add方法");
 		System.out.println("hello world");
+		System.out.println("hello github");
 		return "成功";
 	}
 	
