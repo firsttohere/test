@@ -11,6 +11,7 @@ public class BookController {
 	@GetMapping("/add")
 	public String add() {
 		System.out.println("正在执行add方法");
+		System.out.println("hello world");
 		return "成功";
 	}
 	
